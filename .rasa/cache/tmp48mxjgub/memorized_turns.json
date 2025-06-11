@@ -1,0 +1,21 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohF0gm5sRnpCbmlGTEF5amFlXW1sYCAJS9IVk=": "utter_mental_health_info",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohF0gm5sRnpCbmlGTEF5amFlXWEjCxtKQktSgeVWNmXlo+kYbHAgA7vEWJ": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhuKQotbi4tjYWAAa3HBI=": "utter_stress_support",
+    "eJyFjEEKwCAMBL+SB/QFfqWUIJKD0EZJ1l7Ev1ew19LbDAyz97FRryY3x4RcNFBfwBovCfTKmR2is20uNpusUxHIYeI+fiYNEOPVsrdai+H7dTzDPTm6": "action_listen",
+    "eJydjkEKwCAMBL+SB/QFfqWUICVCoFpJYi+Sv1ewd6G3HRiG3btv0KvQg/E0vkuAPgeWmCnABxerURluU5LhcBloAdSEVH0RaWYkOF3UVust9re1OBRTYsnuxwvfn1Ps": "utter_breathing_tip",
+    "eJydjkEKwzAMBL/iB/QF/koIwi1KKqgVI617Mf57DOm1JOS2A8OwU+uP0Irxl9ILsmkM7RikKXMMP/iIg3W41dmGIzoQMTiM3ftJpAJsdLjktZTNcLd1cigti1i+duhpnPAWXQlS/qfmHbKCcKU=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVKalAvcXFQCW1tbEAPM5QkA==": "utter_depression_support",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVKalAvcXFQCXEOQWhPr64tKAgvwiLu5DNjAUADpZxaA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAViXkVmakllbW1sQBM3k9W": "utter_anxiety_support",
+    "eJydjlEKgCAQBa/iATqBV4lYJJZYqE3WNQrx7glKX4HR33swDDOmPJjkBQ9ws9LO1qQ6gN2G1rSzUlDkwsaAUhjictWaRRA1dxxRFQUq+s/QqXB8Eur1raPBEKL3u7wUPbbpBhuEbbo=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVxSVFqcXFtbWxAP43Tvg=": "utter_stress_support",
+    "eJydjkEKgDAMBL+SB/iCfkUkFAlS0LQkqZfSv1uo3oSKt10YhplLnaAkoRP9aiGyg9IHsj/IwX32oEbc2KwkjQncrjnYhMjqwJHNSLCj/wyDCjUh1W8ZnUXNKUV56XlcywXX9Wyg": "action_listen"
+  }
+}

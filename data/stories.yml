@@ -1,0 +1,47 @@
+version: "3.1"
+
+stories:
+- story: greet and talk depression
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: depression
+    - action: action_depression_support_lang
+
+- story: greet and talk anxiety
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: anxiety
+    - action: action_anxiety_support_lang
+
+- story: greet and talk stress
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: stress
+    - action: action_stress_support_lang
+
+- story: direct mental health question
+  steps:
+    - intent: mental_health_query
+    - action: utter_mental_health_info
+
+- story: say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: stress with breathing suggestion
+  steps:
+    - intent: stress
+    - action: action_stress_support_lang
+    - intent: affirm
+    - action: utter_breathing_tip
+
+- story: anxiety then music
+  steps:
+    - intent: anxiety
+    - action: action_anxiety_support_lang
+    - intent: request_music
+    - action: utter_music_suggestion

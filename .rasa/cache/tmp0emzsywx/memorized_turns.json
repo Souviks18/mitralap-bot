@@ -1,0 +1,15 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KfGJeRWZ+aXFtbWxAN7kUWk=": "utter_anxiety",
+    "eJydjlEKgCAQBa/iATqBV4kQqSUWcjfWNQrx7hn2b/T3BobhjbkMJu8Ch/OzIpM1uQ1HPoA1L2wYFai6KYJUB6miWrMKgJZOI6mCuKb+K3ReBObFeTqRU/x25pFBr15qugHzq25k": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohF0gm5sRnpCbmlGTEF5amFlXW1sYCAJS9IVk=": "utter_mental_health_info",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohF0gm5sRnpCbmlGTEF5amFlXWEjCxtKQktSgeVWNmXlo+kYbHAgA7vEWJ": "action_listen",
+    "eJydjlEKgCAQBa/iATqBV4lYIh8hpMbu2o/s3RPsX+jvDQzDW5strt2Mh/ZDY8netTEo7wnefXBFUeTuVgF3J+aO6t3JgNqkUVXBNNR/hcmLVEogUYYIgtn2AjELUc8=": "utter_stress",
+    "eJydjlEKgCAQBa/iATqBV4lYJB8hpMbu2o949wT7N/p7A8Pw1toWUy/GTW7XkJM1dQxKLsKaF84gitTdIuDuhNRRrTkY0DZpFFUwDfVfYfIi5uxJlCEC/+3NsKep7QFlHW7S": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KfHFiSm1tbEAm9pPmg==": "utter_sadness",
+    "eJydjkEKgDAMBL+SB/iCfkUkFBukYFNJUi+lf7dQzyredmAYdq5tgnoInehXi5kd1DGQfSIHN+xRjbi7RUm6E7mjOdiEyNpLo5iR4FD/FV5epJwDqg/fjnSRSfUps1x3Hmq1": "action_listen"
+  }
+}

@@ -1,0 +1,77 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - mental_health_query
+  - depression
+  - anxiety
+  - stress
+  - affirm
+  - deny
+  - request_music
+
+responses:
+  utter_greet:
+    - text: "Hey there! How are you feeling today?"
+
+  utter_goodbye:
+    - text: "Take care! Reach out anytime you need to talk."
+
+  utter_mental_health_info:
+    - text: "Mental health is just as important as physical health. You're doing the right thing by checking in."
+
+  utter_depression_response:
+    - text: "I'm sorry you're feeling this way. It's okay to talk about it, and you're not alone."
+
+  utter_anxiety_response:
+    - text: "Anxiety can be really tough. Try to breathe slowly, and remember you're not alone."
+
+  utter_stress_response:
+    - text: "Stress is very common. Taking short breaks and talking to someone can help ease it."
+
+  utter_depression_support:
+    - text: "It’s okay to not be okay. Consider journaling, self-care, or reaching out to someone you trust."
+
+  utter_anxiety_support:
+    - text: "When anxiety builds up, try grounding exercises or calming music. Want me to suggest one?"
+
+  utter_stress_support:
+    - text: "Try closing your eyes and taking deep breaths. Would you like a quick relaxation tip?"
+
+  utter_breathing_tip:
+    - text: "Here’s a simple technique: Breathe in for 4 seconds, hold for 7, and exhale for 8. Try this for 1 minute!"
+
+  utter_music_suggestion:
+    - text: "Here’s something calming 🎶: https://www.youtube.com/watch?v=2OEL4P1Rz04"
+    - text: "Try this ambient track: https://www.youtube.com/watch?v=5DiMoehAeOU"
+
+  utter_depression_support_bn:
+    - text: "ভাল না লাগা একদম স্বাভাবিক। নিজের যত্ন নাও, আর প্রয়োজনে কারো সঙ্গে কথা বলো।"
+    - text: "নিজেকে একা ভাবো না, তুমি একা নও। মন খারাপ হলে কারো সঙ্গে কথা বলো।"
+    - text: "এমন মনখারাপের সময় নিজেকে ভালোবাসো, একটু বিশ্রাম নাও।"
+    - text: "যা কিছু তোমায় কষ্ট দিচ্ছে, সেটা নিয়েই কথা বলা শুরু করো। আমি শুনছি।"
+
+
+  utter_stress_support_bn:
+    - text: "চিন্তা হচ্ছে? একটু চোখ বন্ধ করো আর গভীর শ্বাস নাও। চাইলে একটা ব্রিদিং টেকনিক বলবো?"
+    - text: "এই মুহূর্তে নিজেকে একটু সময় দাও, গভীর শ্বাস নাও আর চোখ বন্ধ করো।"
+    - text: "মন শান্ত রাখতে চেষ্টা করো, তোমার পাশে আছি। চাইলে একটা রিলাক্সেশন টিপ দিতে পারি।"
+    - text: "চাপের মুহূর্তে একটু ব্রেক নাও। বলো, একটা সহজ এক্সারসাইজ শিখিয়ে দিই?"
+
+
+  utter_anxiety_support_bn:
+    - text: "ভয় বা অস্থিরতা হলে গভীর শ্বাস নাও। চাইলে তোমায় একটা শান্ত সঙ্গীত শোনাতে পারি।"
+    - text: "অস্থিরতা স্বাভাবিক, একটু ধীরে শ্বাস নাও। চাইলে আমি একটা শান্ত track শোনাতে পারি।"
+    - text: "চিন্তা করো না, তোমার অনুভবগুলো আমি বুঝতে পারছি। বলো, একটা calming music দিবো?"
+    - text: "ভয় লাগলে মনোযোগ সরাও, একটা সুন্দর মিউজিক শুনলে ভালো লাগতে পারে। বলো দিবো?"
+
+
+actions:
+  - action_depression_support_lang
+  - action_stress_support_lang
+  - action_anxiety_support_lang
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

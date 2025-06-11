@@ -1,0 +1,162 @@
+version: "3.1"
+
+nlu:
+# 🌼 Greetings
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey there
+    - good morning
+    - good evening
+    - what's up
+    - how's it going?
+    - namaste
+    - salam
+    - নমস্কার
+    - হ্যালো
+    - আসসালামু আলাইকুম
+
+# 👋 Farewell
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - take care
+    - I'm signing off
+    - catch you later
+    - talk to you soon
+    - আবার দেখা হবে
+    - দেখা হবে পরে
+    - ভালো থেকো
+
+# ❓ General mental health questions
+- intent: mental_health_query
+  examples: |
+    - can you tell me about mental health?
+    - what does mental health mean?
+    - how do I know if my mental health is bad?
+    - what should I do for mental peace?
+    - how to improve my emotional state?
+    - how to deal with negative thoughts?
+    - মানসিক স্বাস্থ্য কী?
+    - কীভাবে মানসিক শান্তি পাবো?
+    - কী করলে মন ভালো থাকবে?
+    - আমাকে মানসিকভাবে শান্ত থাকতে সাহায্য করো
+
+# 😞 Depression
+- intent: depression
+  examples: |
+    - I feel down-hearted and blue
+    - Life feels meaningless to me
+    - I find it hard to get excited about anything
+    - I can't feel happy no matter what
+    - I feel hopeless
+    - I don’t enjoy the things I used to
+    - I feel like I’m not worth much
+    - I struggle to feel positive
+    - I feel empty and lost
+    - Nothing excites me anymore
+    - mon kharap lagche
+    - mood baje ache
+    - kichu bhalo lagche na
+    - ami khub eka eka mone korchi
+    - amar kichu bhalo lage na
+    - আমার মন ভালো নেই
+    - আমি খুব একা বোধ করছি
+    - কিছুতেই আগ্রহ পাই না
+    - আমার জীবনে কিছু নেই
+    - সবকিছু ফাঁকা লাগছে
+
+# 😰 Anxiety
+- intent: anxiety
+  examples: |
+    - I felt scared for no reason
+    - I worry a lot about things
+    - My heart races for no reason
+    - I feel like I’m about to panic
+    - I avoid situations where I might panic
+    - I get nervous easily
+    - I feel uneasy all the time
+    - My hands tremble when I'm anxious
+    - I feel breathless even when resting
+    - I can't sit still when anxious
+    - onek chinta hocche
+    - panic lagche
+    - anxiety hocche
+    - hridoy dhruto dhuk dhuk korche
+    - ami bhoy pechi
+    - amar ghabra lagche
+    - আমার গা গুলাচ্ছে
+    - আমার খুব টেনশন হচ্ছে
+    - আমি খুব নার্ভাস লাগছে
+    - মাথা কাজ করছে না চিন্তায়
+
+# 😣 Stress
+- intent: stress
+  examples: |
+    - I found it hard to wind down
+    - I get easily agitated
+    - I overreact to small things
+    - I find it hard to relax
+    - I’m intolerant of interruptions
+    - I feel under too much pressure
+    - I feel mentally exhausted
+    - I lose patience quickly
+    - I feel like I'm on edge constantly
+    - I get overwhelmed easily
+    - stress feel korchi
+    - kichutei mon bosche na
+    - onek chap mone hochhe
+    - chinte chinte matha ghure jacche
+    - ami bar bar irritate hocchi
+    - আমি চাপ অনুভব করছি
+    - মাথা ঘুরছে চিন্তায়
+    - খুব রাগ লাগছে
+    - আমি শান্ত থাকতে পারছি না
+    - কিছুতেই মন বসছে না
+
+# 👍 Yes / Okay / Accept
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - sure
+    - of course
+    - definitely
+    - I would like that
+    - please
+    - ঠিক আছে
+    - হ্যাঁ
+    - অবশ্যই
+    - আমি চাই
+
+# ❌ No / Reject
+- intent: deny
+  examples: |
+    - no
+    - not now
+    - maybe later
+    - I’m good
+    - I don’t want that
+    - leave it
+    - না
+    - এখন নয়
+    - দরকার নেই
+    - আমি ঠিক আছি
+
+# 🎧 Ask for music
+- intent: request_music
+  examples: |
+    - Can you suggest something to calm me down?
+    - I want to hear something relaxing
+    - Give me calming music
+    - I feel anxious, can you help with music?
+    - Do you have any relaxing audio?
+    - I need something peaceful to listen to
+    - কিছু শোনাও আমাকে
+    - শান্ত কিছু প্লে করো
+    - আমি গান শুনতে চাই
+    - দয়া করে কিছু রিলাক্সিং মিউজিক দাও
+    - আমাকে একটু শান্ত করতে পারো?

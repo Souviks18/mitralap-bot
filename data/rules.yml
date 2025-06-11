@@ -1,0 +1,38 @@
+version: "3.1"
+
+rules:
+- rule: say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: mental health query
+  steps:
+    - intent: mental_health_query
+    - action: utter_mental_health_info
+
+- rule: music request
+  steps:
+    - intent: request_music
+    - action: utter_music_suggestion
+
+- rule: user wants breathing tip
+  steps:
+    - intent: affirm
+    - action: utter_breathing_tip
+
+# ✅ Use only smart (language-aware) custom actions
+- rule: smart stress support
+  steps:
+    - intent: stress
+    - action: action_stress_support_lang
+
+- rule: smart depression support
+  steps:
+    - intent: depression
+    - action: action_depression_support_lang
+
+- rule: smart anxiety support
+  steps:
+    - intent: anxiety
+    - action: action_anxiety_support_lang
