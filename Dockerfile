@@ -1,14 +1,21 @@
-# Dockerfile
+# Use official Python image
+FROM python:3.10-slim
 
-FROM python:3.10
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
+# Set working directory
 WORKDIR /app
 
-COPY . .
+# Copy all files to container
+COPY . /app/
 
-RUN pip install -U pip
-RUN pip install -r requirements.txt
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 5005
+# Expose the port
+EXPOSE 5000
 
-CMD ["rasa", "run", "--enable-api", "--cors", "*", "--debug"]
+# Start the Flask app
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
