@@ -1,3 +1,4 @@
-Flask==2.3.2
-gunicorn==21.2.0
-requests
+rasa==3.5.17
+tensorflow==2.11.1
+transformers==4.28.1
+joblib
