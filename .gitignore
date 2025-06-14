@@ -1,5 +1,24 @@
-rasa_env/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pkl
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+rasa_env/
+
+# VSCode & PyCharm files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Model files
+# ⚠️ IMPORTANT: DON'T ignore models/ if you want to deploy trained model!
+# So don't write: models/
+
+# Other
 *.db
+.DS_Store
